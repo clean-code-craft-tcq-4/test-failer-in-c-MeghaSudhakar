@@ -3,9 +3,9 @@
 
 int printColorMap() 
 {
-    const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
-    const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-     char PrintBuffer[25] = {};
+     char majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
+     char minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+     char PrintBuffer[100] = {};
     int number = 0;
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) 
