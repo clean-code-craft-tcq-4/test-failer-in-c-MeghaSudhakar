@@ -20,7 +20,7 @@ int printColorMap()
         
     }
     for(i = 0; i < 25; i++) 
-   printf("%s\n",PrintBuffer[i]);
+   printf("new array is %s\n",PrintBuffer[i]);
     
     return i * j;
 }
