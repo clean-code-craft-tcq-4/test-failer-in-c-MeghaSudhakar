@@ -3,10 +3,10 @@
 
 int printColorMap() 
 {
-      char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
-      char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+      const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
+      const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
     
-      char* store[100] = {};
+     // char* store[100] = {};
   
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) 
@@ -14,8 +14,8 @@ int printColorMap()
         for(j = 0; j < 5; j++) 
         {
     
-             char* store[0]=majorColor[i];
-             char* store[1]=minorColor[j];
+           //  char* store[0]=majorColor[i];
+            // char* store[1]=minorColor[j];
             
             printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);            
         }
