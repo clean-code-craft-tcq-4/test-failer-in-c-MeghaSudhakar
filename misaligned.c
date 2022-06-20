@@ -14,8 +14,8 @@ int printColorMap()
         for(j = 0; j < 5; j++) 
         {
     
-             store[0]=majorColor[i];
-             store[1]=minorColor[j];
+             char* store[0]=majorColor[i];
+             char* store[1]=minorColor[j];
             
             printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);            
         }
