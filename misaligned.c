@@ -12,7 +12,7 @@ int printColorMap()
     {
         for(j = 0; j < 5; j++) 
         {
-            //PrintBuffer[number++] = majorColor[i];
+            PrintBuffer[number++] = majorColor[i];
            // PrintBuffer[number++] = majorColor[j];
             
             printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);            
