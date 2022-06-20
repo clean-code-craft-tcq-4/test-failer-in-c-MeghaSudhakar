@@ -5,15 +5,23 @@ int printColorMap()
 {
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
     const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+    const char* PrintBuffer[] = {};
+    int number = 0;
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) 
     {
         for(j = 0; j < 5; j++) 
         {
-            printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);
+            PrintBuffer[number++] = majorColor[i];
+            PrintBuffer[number++] = majorColor[j];
+            
+            printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);            
         }
         
     }
+    for(i = 0; i < 25; i++) 
+   printf("%s\n",PrintBuffer[i]);
+    
     return i * j;
 }
 
