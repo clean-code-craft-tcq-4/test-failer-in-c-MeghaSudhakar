@@ -11,9 +11,9 @@ int printColorMap()
         for(j = 0; j < 5; j++) 
         {
             printf("%d | %s | %s\n", i * 5 + j, majorColor[i], minorColor[j]);
-            printf("STEP 1: i is %d snd j is %d \n", i,j);
+            //printf("STEP 1: i is %d snd j is %d \n", i,j);
         }
-        printf("i is %d snd j is %d \n", i,j);
+        //printf("i is %d snd j is %d \n", i,j);
     }
     return i * j;
 }
