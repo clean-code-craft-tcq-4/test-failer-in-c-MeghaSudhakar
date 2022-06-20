@@ -13,7 +13,7 @@ int printColorMap()
             printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);
             //printf("STEP 1: i is %d snd j is %d \n", i,j);
         }
-        //printf("i is %d snd j is %d \n", i,j);
+        printf("i is %d snd j is %d \n", i,j);
     }
     return i * j;
 }
