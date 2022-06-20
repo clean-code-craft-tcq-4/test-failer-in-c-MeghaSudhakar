@@ -5,16 +5,15 @@ int printColorMap()
 {
      const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
      const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-     //const char* PrintBuffer[100] = {};
-     char store[100] = {};
-    //int number = 0;
+    
+     const char* store[100] = {};
+  
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) 
     {
         for(j = 0; j < 5; j++) 
         {
-            //*PrintBuffer[number++] = majorColor[i];
-           // PrintBuffer[number++] = majorColor[j];
+    
              store[0]=majorColor[i];
              store[1]=minorColor[j];
             
@@ -22,9 +21,7 @@ int printColorMap()
         }
         
     }
-   // for(i = 0; i < 25; i++) 
-  // printf("new array is %s\n",PrintBuffer[i]);
-    
+ 
     return i * j;
 }
 
