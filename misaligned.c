@@ -7,7 +7,7 @@ int printColorMap()
      const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
      //const char* PrintBuffer[100] = {};
      char store[100] = {};
-    int number = 0;
+    //int number = 0;
     int i = 0, j = 0;
     for(i = 0; i < 5; i++) 
     {
@@ -15,8 +15,8 @@ int printColorMap()
         {
             //*PrintBuffer[number++] = majorColor[i];
            // PrintBuffer[number++] = majorColor[j];
-             store[0]=majorColor[];
-             store[1]=minorColor[];
+             store[0]=majorColor[i];
+             store[1]=minorColor[j];
             
             printf("%d\t\t%s\t\t%s\n", i * 5 + j, majorColor[i], minorColor[j]);            
         }
