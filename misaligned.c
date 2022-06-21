@@ -53,7 +53,7 @@ void AlignmentCheck_EvaluatingString()
     printf("no\n");*/
     
 }
--
+
 int main() 
 {
     int result = printColorMap(AlignmentCheck);
