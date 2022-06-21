@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include <string.h>
 
 const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
@@ -44,12 +45,12 @@ void ReferenceManual_ColorCode(char *ReferenceAlignmentCheck)
 
 void AlignmentCheck_EvaluatingString()
 {
-    //assert(strcmp(&ReferenceAlignmentCheck[0],&AlignmentCheck[0]) == 0);   
-    int ret = (strcmp(&ReferenceAlignmentCheck[0],&AlignmentCheck[0]) == 0);  
+    assert(strcmp(&ReferenceAlignmentCheck[0],&AlignmentCheck[0]) == 0);   
+    /*int ret = (strcmp(&ReferenceAlignmentCheck[0],&AlignmentCheck[0]) == 0);  
     if(ret == 0)
     printf("yse\n");
     else
-    printf("no\n");
+    printf("no\n");*/
     
 }
 -
