@@ -18,7 +18,7 @@ int printColorMap(char *AlignmentCheck)
     {
         for(minor=0; minor<5; minor++)
         {
-            pairnum += sprintf(&AlignmentCheck[pairnum], "%d |%s |%s\n",((major * 5 + minor) + 1), (majorColor[major]), (minorColor[minor]));
+            pairnum += sprintf(&AlignmentCheck[pairnum], "%d\t|%s\t\t|%s\n",((major * 5 + minor) + 1), (majorColor[major]), (minorColor[minor]));
         }
     }
     printf("Below is the Actual manual color code display which has to be checked for Alignment\n%s\n",AlignmentCheck);
