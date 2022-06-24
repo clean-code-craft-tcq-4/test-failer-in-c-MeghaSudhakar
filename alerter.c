@@ -73,7 +73,6 @@ int main()
 
     assert(test(300) == 200);
     assert(test(350) == 200);
-    assert(test(400) == 200);
     assert(test(800) == 500);
     printf("\n%d alerts failed.\n", alertFailureCount);
     printf("All is well (maybe!)\n");
